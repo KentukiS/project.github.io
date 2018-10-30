@@ -1,0 +1,391 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Mali', cursive;
+*/
+body{
+	padding:0px;
+    margin: 0px;
+    width: 100%;
+    /*background: #97aade;*/
+    background-image: url(star1.jpg);
+    background-repeat: no-repeat;
+
+}
+
+header{
+
+ z-index:10000;
+ width: 100%;
+ background: #821bc2;
+ height: 70px;
+ position: fixed;
+ 
+}
+
+.hmenu {
+  list-style: none; /*убираем маркеры списка*/
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+  padding-right: 250px; 
+}
+
+.lihmenu {
+  display: inline;
+  padding-left: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+ 
+ .a1 {color:white;
+ text-decoration: none;
+ }
+
+.logo {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+
+}
+
+.foto1 {
+    border-radius: 300px; /* Радиус скругления */
+    border: 3px solid #821bc2; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+}
+
+.pf1{
+	position: relative;
+ 	top: 100px;
+ 	left: 70px;
+}
+
+.ft1 {
+	
+}
+
+.ftb1{
+	font-family: 'Inconsolata', montospace;
+    text-align: center; 
+	
+}
+
+.kaef{
+	font-family: 'Inconsolata', montospace;
+    text-align: center; 
+}
+
+.block1{
+	background-color: rgba(130, 27, 194, 0.8);
+	margin-top: 20px;
+	margin-left:-70px;
+	border-radius: 0px 20px 20px 0px; /*скруглние*/
+	width:420px;
+	height:272px;
+}
+
+.block2{
+	position: absolute;
+	font-family: 'Inconsolata', monospace;
+	top:24%;
+	left: 50%;
+	padding-left: 1%;
+	background-color: rgba(130, 27, 194, 0.8);
+	border-radius: 20px 20px 20px 20px; /*скруглние*/
+	width:480px;
+	height:480px;
+	text-align: left;
+}
+
+.h3text{
+
+	font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+.emoji{
+	
+	position: relative;
+	margin-top: 190px;
+	background: #372652;
+	height: 600px;
+	width:120%;
+}
+
+.one {
+  text-align: center;
+  word-spacing: 220px;
+   font-size: 180%;
+   
+ }
+
+ .imgss img {
+ 	height: 300px; 
+ 	width: 300px; 
+ }
+ .imgss {
+ 	text-align: center; 
+ }
+
+
+.alfa {
+	 width:20%;
+	 height:50%;
+}
+
+.pixel {
+	width:100[];
+}
+
+.table{
+	padding:0px;
+    margin: 0px;
+	position: relative;
+	margin-top: 0px;
+	background: #f3e8fa;
+	height: 760px;
+	width:120%;
+}
+
+.maintable {
+	width:900px;
+    margin:auto;
+    font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	border-collapse: collapse;
+	border-radius: 20px;
+	box-shadow: 0 0 0 10px #F2906B;
+	color: #452F21;
+} 
+
+th {
+	padding: 10px 8px;
+	background: white;
+	
+
+}
+
+table th:first-child {
+	border-top-left-radius: 20px;
+}
+table th:last-child {
+	border-top-right-radius: 20px;
+}
+
+td {
+	height: 47px;
+	
+	border-top: 10px solid #F2906B;
+	padding: 8px;
+	background: white;
+}
+
+table td:first-child {
+	border-bottom-left-radius: 20px;
+}
+table td:last-child {
+	border-bottom-right-radius: 20px;
+}
+
+.MainText{
+
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	
+}
+
+.MainText2{
+	font-family: 'Mali', cursive;
+	text-align:center;
+	margin-top: 0px;
+	color: #5840c7;
+}
+
+#yak1{
+	position: absolute;
+	margin-top: -50px;
+}
+
+.yak2{
+    position: absolute;
+    margin-top: -50px;
+	
+}
+
+.a1:visited{
+ color: #fff;
+}
+
+.films{
+z-index:1;
+background-image: url(avenger2.jpg);
+width: 120%;
+height: 720px;
+background-repeat: no-repeat;
+
+}
+
+
+#featured { 
+	position: relative;
+	margin-top: 100px;
+	margin-left: 10%;
+	width: 940px; 
+	height: 450px; 
+	background: #009cff url('orbit/loading.gif') no-repeat center center; 
+	overflow: hidden; 
+
+}
+
+#bblock {
+
+	position: relative;
+	margin-top: 0px;
+	background-image: url(gorod.jpg);
+	height: 1300px;
+	width:120%;
+	background-repeat: no-repeat;
+
+}
+
+.block3 {
+	position: relative;
+	top:3%;
+	text-align: left;
+}
+
+.block4 {
+	
+}
+
+
+.foto2 {
+    border-radius: 300px; /* Радиус скругления */
+    border: 3px solid #821bc2; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    text-align: left;
+}
+
+.text {
+	text-align: left;
+	background-color: rgba(130, 27, 194, 0.8);
+	border-radius: 20px 20px 20px 20px; /*скруглние*/
+	padding-left: 3%;
+	width:610px;
+	height:300px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.block6 {
+	position: absolute;
+	top:39%;
+	left: 34%;
+}
+
+
+
+.foto3 {
+    border-radius: 300px; /* Радиус скругления */
+    border: 3px solid #821bc2; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    
+}
+
+.text2 {
+	text-align: left;
+	background-color: rgba(130, 27, 194, 0.8);
+	border-radius: 20px 20px 20px 20px; /*скруглние*/
+	padding-left: 3%;
+	width:700px;
+	height:300px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+.block7 {
+	position: relative;
+	top:36%;
+	text-align: left;
+}
+
+.block8 {
+	
+}
+
+
+.foto4 {
+
+    border-radius: 300px; /* Радиус скругления */
+    border: 3px solid #821bc2; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    
+}
+
+.text3 {
+
+	text-align: left;
+	background-color: rgba(130, 27, 194, 0.8);
+	border-radius: 20px 20px 20px 20px; /*скруглние*/
+	padding-left: 3%;
+	width:610px;
+	height:300px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.dmodel {
+
+	position: relative;
+	margin-top: 0px;
+	background-image: url(help3.jpg);
+	height: 700px;
+	width:120%;
+	background-repeat: no-repeat;
+}
+
+.model {
+	position: relative;
+	top:3%;
+	margin-left:25%;
+}
+
+
+.podval {
+	background: #821bc2;
+	position: relative;
+	width: 120%; 
+	height: 40px; 
+	
+}
+
+.contact {
+	float:right;
+	margin-right: 30%
+}
+
+.contact2 {
+	float:right;
+	margin-right: -8%
+}
+
+.contact3 {
+	float:right;
+	margin-right: -13%
+}
+
+.ptext {
+	font-family: 'Roboto', sans-serif;
+	float:left;
+	margin-left:0%;
+}
+
+.contact4 {
+	
+	float:left;
+	margin-left:10%;
+}

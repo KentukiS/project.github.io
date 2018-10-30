@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Myne site</title>
+	<meta charset="UTF-8">
+	
+	
+	
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Mali:400,500,600,700|Roboto:400,500,700,900" rel="stylesheet">
+	<link href="css\style.css" type="text/css" rel="stylesheet"/>
+	<link rel="stylesheet" href="orbit.css">
+	<script type="text/javascript" src="JS/jquery-1.4.1.min.js"></script>
+	<script type="text/javascript" src="JS/jquery.orbit.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" >
+	<link rel="stylesheet" type="text/css" href="css/style.css" id="changeable_styles"></link>
+
+	<script type="text/javascript"> 
+	function setCookie(a,b,c){if(c){var d=new Date();d.setTime(d.getTime()+(c*24*60*60*1000));var e="; expires="+d.toGMTString()}else var e="";document.cookie=a+"="+b+e+"; path=/"};function getCookie(a){var b=a+"=";var d=document.cookie.split(';');for(var i=0;i<d.length;i++){var c=d[i];while(c.charAt(0)==' ')c=c.substring(1,c.length);if(c.indexOf(b)==0)return c.substring(b.length,c.length)}return null};function eraseCookie(a){setCookie(a,"",-1)}; 
+	</script>
+
+	<script type="text/javascript">
+			$(window).load(function() {
+				$('#featured').orbit({
+					'bullets': true,
+					'timer' : true,
+					'animation' : 'horizontal-slide'
+				});
+			});
+		</script>
+
+		
+	
+</head>
+
+<body>
+
+	<header>
+		<div class="logo"><img src="img/logo.png"></div>
+		<input type="button" onclick="setCookie('color_of_style', 'стиль адын', 365); document.getElementById('changeable_styles').href = 'css/style.css';" value="Стиль один"> 
+		
+		<input type="button" onclick="setCookie('color_of_style', 'стиль два', 365); document.getElementById('changeable_styles').href = 'css/style2.css';" value="Стиль два">
+		<div class="menu">
+			
+			<ul class="hmenu">
+				<li class="lihmenu"><a class="a1" href="">Главная</a></li>
+				<li class="lihmenu"><a class="a1" href="#A">Учёба</a></li>
+				<li class="lihmenu"><a class="a1" href="#B">Фильмы</a></li>
+				<li class="lihmenu"><a class="a1" href="#C">О городе</a></li>
+				<li class="lihmenu"><a class="a1" href="#D">3D-model</a></li>
+			</ul>
+		
+	    </div>
+	</header>
+
+	<div class ="pf1">
+		
+			<div class="ft1">
+				<img src="img/foto1.png" alt="" class="foto1">
+				
+				<div class ="block1"><h1 class="ftb1">Hello!</h1>
+						<p><h3 class="h3text">Меня зовут Дмитрий Стреляный</p>
+						<p>На этом сайте вы узнаете </p>
+						<p>немного нового обо мне.</p>
+						<p>Справа вы можете увидеть</p>
+						<p>моё краткое "Досье"</h3></p>
+				</div>
+
+			</div>
+
+	</div>
+
+	<div class ="block2">
+
+		<h1 class="ftb1">Досье</h1>
+		<p><h3>Имя: Стреляный Дмитрий Сергеевич</p>
+		<p>Возраст: 20лет</p>
+		<p>Место учебы: НТУ "ХПИ" Инженерно-физический Институт</p>
+		<p>Три слова, с которыми я себя ассоциирую:
+			<p>Случайность, Игра, Веселье
+		<br>Любимая цитата:
+		<p><q>Энди Дюфрейн прополз через реку дерьма и выполз чистым.</q></p> -
+		<cite>Эллис Бойд «Рэд» Реддинг в фильме "Побег из Шоушенка"</cite></h3>	
+
+	</div>
+
+
+
+	<div class="emoji">
+
+			<br><div class="h3text"><h2 id="ftb1">Три моих "Всадника Апокалипсиса"</h2></div>
+			
+				<h4 class="one"> Happy  Sad Now</h4>
+
+				<div class="imgss" >
+
+					<img src="img/fun.gif" alt="">
+					<img  src="img/source.gif" alt="">
+					<img  src="img/neut.gif" alt="">
+
+				</div>
+	</div>
+
+
+
+    <a id = "yak1" name = "A">  </a>
+
+	<div class = "table">
+
+			<h1 class="MainText"> Результаты прошедшего семестра  </h1>
+
+			<table class="maintable">
+				
+				<tr>
+					<th>Преподаватель</th>
+					<th>Предмет</th>
+					<th>Оценка</th>
+				</tr>
+				<tr>
+					<td>Иглин</td>
+					<td>Математические методы</td>
+					<td>96</td>
+				</tr>
+				<tr>
+					<td>Трубаев</td>
+					<td>Колебание мех.систем</td>
+					<td>95</td>
+				</tr>
+				<tr>
+					<td>Шелковый</td>
+					<td>Компьютерные сети</td>
+					<td>90</td>
+				</tr>
+				<tr>
+					<td>Потопальская</td>
+					<td>Моделирование систем</td>
+					<td>78</td>
+				</tr>
+				<tr>
+					<td>Паршина</td>
+					<td>Украинский язык</td>
+					<td>100</td>
+				</tr>
+				<tr>
+					<td>Кузьменко</td>
+					<td>Охрана труда</td>
+					<td>97</td>
+				</tr>
+				<tr>
+					<td>Симко</td>
+					<td>Правоведение</td>
+					<td>95</td>
+				</tr>
+				<tr>
+					<td>Ларин</td>
+					<td>Технология создания ПП</td>
+					<td>93</td>
+				</tr>
+
+			</table>
+		</div>
+
+		 <a class = "yak2" name = "B">  </a>
+
+		<div class = "films">
+
+			    <div><h1 class="MainText2"><br> Шедевры кинематографа </h1></div>
+
+			    <div id="featured"> 
+
+						<a href="http://www.lostfilm.tv/series/The_100"><img src="img/sotna.jpg" alt="Link" /></a>
+						<a href="http://hdrezka.ag/films/action/2031-strazhi-galaktiki-2014.html" ><img src="img/guard.jpg" alt="Link"/></a>
+						<a href="http://lostfilm-hd720.ru/1240-sherlok-1-4-sezon-smotret-onlajn-na-lostfilm-serial-besplatno-hd-1080.html"><img src="img/sher.jpg" alt="Marcus Fenix" rel="marcusCaption" /></a>
+						<a href="http://hdrezka.ag/films/drama/806-pobeg-iz-shoushenka-1994.html"><img src="img/pobeg.jpg"/></a>
+						
+				</div> 
+
+					<span class="orbit-caption" id="marcusCaption"> История <em> о лучшем </em> детективе в мире!</span>
+						
+		</div>
+        <a class = "yak2" name = "C">  </a>
+		<div id="bblock">
+				<br><h1 class="MainText"> Прекрасный город - Харьков!  </h1>
+				
+				<div class="block3">
+					<div class="block4"><img class = "foto2" src="img/kh1.jpg" align="left">
+						<div class = "text">
+							<br><br>
+							<p><center><q>Харьков - лучший город для жизни!</q></center></p>
+							В 2010 году город красовался множеством билбордов с такой надписью. Что, разумеется, харьковчане восприняли как констатацию факта. Но мало кто знает, что по версии журнала «Фокус», Харьков заслужил гордость называться лучшим городом для жизни. Правда, уже в 2011 разделил это звание с Киевом.
+						</div>
+					</div>
+				</div>
+
+				<div class="block5">
+					<div class="block6">
+						<div class = "text2">
+							<img class = "foto3" src="img/kh2.jpg" align="right">
+							<br><br>
+							<p><center><q>Мини город внутри города</q></center></p>
+						<p>Один из районов города – Салтовка – это самый большой спальный район по количеству зарегистрированных жителей в нём по Украине. Более того, здесь проживает четвертая часть от всего населения города. Для примера – состоянием на первое июля 2015 года в Виннице зарегистрировано 369 тысяч человек, что как минимум на 30 тысяч меньше, чем на Салтовке.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="block7">
+					<div class="block8">
+						<div class = "text3">
+							<img class = "foto4" src="img/kh3.jpg" align="left">
+							<br>
+							<p><center><q>Харьковский зоопарк</q></center></p>
+						<p>Для посетителей зоопарк открыл двери впервые в 1903 году, тогда как основан он был в 1895, восемью годами ранее. Он же стал первым на территории Украины. Изначально на арендованной у Харьковского университета земле располагалась выставка зверей и птиц, однако с 1911 года его постепенно начали заселять дикими животными. С 1930 года территория зоопарка не изменилась – сегодня она составляет 22 гектара.</p>
+						</div>
+					</div>
+				</div>
+
+		</div>
+
+        <a class = "yak2" name = "D">  </a>
+		<div class="dmodel">
+
+			<br><h1 class="MainText2"> 3D-model  </h1>
+
+			<div class="model"><iframe width="640" height="480" src="https://sketchfab.com/models/f8ab258af28940bd8b7cf7a41f37d300/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+			
+			</div>
+
+			
+		</div>
+
+		
+		<div class = "podval">
+			<a class = "contact4"><img src="img/mtc.png">
+			<a class = "ptext"> +380992775056 <a>
+		<a class = "contact" href="https://vk.com/strelyany"><img src="img/vk.png">
+		<a class = "contact2" href="https://twitter.com/KentukiSS"><img src="img/twit.png">
+		<a class = "contact3" href="https://coub.com/kentukiscoubs"><img src="img/coub.png">
+		</div>
+
+			<script> 
+				+function() { 
+				std = 'red.css'; // стандартные стили 
+				if(getCookie('color_of_style')){var color=getCookie('color_of_style')}else{var color=std};document.getElementById('changeable_styles').href=color; 
+	              }				(); 
+			</script>
+		
+</body>
+</html>
